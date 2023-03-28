@@ -1,13 +1,14 @@
 import React from "react";
 import "../styles/header.css";
+import { Link } from "react-router-dom";
 
 function Header() {
   return (
     <div className="header">
       <ul className="header_list">
-        <li>소개글</li>
-        <li>날씨</li>
-        <li>관광지</li>
+        <li><Link to="/">소개글</Link></li>
+        <li><Link to="/weather">날씨</Link></li>
+        <li><Link to="/jeju-tour/list">관광지</Link></li>
       </ul>
     </div>
   );
