@@ -1,14 +1,21 @@
 import React from "react";
 import "../styles/header.css";
+import { Link } from "react-router-dom";
 
 function Header() {
   return (
     <div className="header">
-      <ul className="header_list">
-        <li>소개글</li>
-        <li>날씨</li>
-        <li>관광지</li>
-      </ul>
+      <div id="header-list">
+        <Link className="header-item" to="/">
+          소개글
+        </Link>
+        <Link className="header-item" to="/weather">
+          날씨
+        </Link>
+        <Link className="header-item" to="/jeju-tour/list">
+          관광지
+        </Link>
+      </div>
     </div>
   );
 }
