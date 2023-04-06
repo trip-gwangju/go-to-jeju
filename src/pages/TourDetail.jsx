@@ -1,11 +1,7 @@
-import React from 'react';
+import React from "react";
 
 function TourDetail(props) {
-    return (
-        <div>
-            
-        </div>
-    );
+  return <div></div>;
 }
 
 export default TourDetail;
