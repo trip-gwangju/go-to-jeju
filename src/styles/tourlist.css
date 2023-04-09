@@ -1,0 +1,8 @@
+.search{
+    margin-top: 10px;
+    height: 100px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 100px;
+}
