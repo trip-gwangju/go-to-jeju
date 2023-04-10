@@ -1,3 +1,4 @@
+
 import axios from "axios";
 import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
@@ -53,6 +54,5 @@ function TourDetail() {
       <Map Lat={tourDatas.latitude} Lng={tourDatas.longitude} />
     </div>
   );
-}
 
 export default TourDetail;
