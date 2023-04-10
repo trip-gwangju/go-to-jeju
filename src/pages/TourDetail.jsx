@@ -1,4 +1,3 @@
-
 import axios from "axios";
 import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
@@ -47,12 +46,15 @@ function TourDetail() {
               tourDatas.phoneno
             )}
           </p>
-          <p className="tour-tag">#{tag[0]} #{tag[1]} #{tag[2]} #{tag[3]}</p>
+          <p className="tour-tag">
+            #{tag[0]} #{tag[1]} #{tag[2]} #{tag[3]}
+          </p>
         </div>
       </div>
       <div className="content-detail">{tourDatas.introduction}</div>
       <Map Lat={tourDatas.latitude} Lng={tourDatas.longitude} />
     </div>
   );
+}
 
 export default TourDetail;
