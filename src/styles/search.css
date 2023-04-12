@@ -1,0 +1,25 @@
+.select-category {
+  margin-right: 20px;
+  border: none;
+  width: 154px;
+  height: 40px;
+  background: #f3f3f3;
+  border-radius: 10px;
+}
+
+.search-bar {
+  border: none;
+  width: 530px;
+  height: 40px;
+  background: #f3f3f3;
+  border-radius: 10px;
+}
+
+.search-button {
+  width: 102px;
+  height: 40px;
+  border: none;
+  background: #ffc27b;
+  border-radius: 10px;
+  margin-left: 20px;
+}
