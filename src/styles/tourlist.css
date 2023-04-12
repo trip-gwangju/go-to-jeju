@@ -1,8 +1,27 @@
-.search{
-    margin-top: 10px;
-    height: 100px;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    padding-right: 100px;
+.search {
+  margin-top: 10px;
+  height: 100px;
+  text-align: center;
+  font-size: 24px;
+  /* display: flex; */
+  /* justify-content: flex-end;
+  align-items: center; */
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tour-content {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  width: 100vw;
+  height: 1500px;
+  flex-grow: 1;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
 }
