@@ -7,9 +7,14 @@ function TourListItem({ tourItem }) {
   useEffect(() => {
     setTags(tourItem.alltag.split(","));
   }, []);
-  
+
   return (
-    <div className="tour-items" onClick={() => window.location.href=`/jeju-tour/detail/${tourItem?.contentsid}`}>
+    <div
+      className="tour-items"
+      onClick={() =>
+        (window.location.href = `/jeju-tour/detail/${tourItem?.contentsid}`)
+      }
+    >
       <img
         src={tourItem?.repPhoto?.photoid?.imgpath}
         alt="관광지 이미지"
@@ -19,7 +24,7 @@ function TourListItem({ tourItem }) {
         <h2 className="title">{tourItem?.title}</h2>
         <p className="address">{tourItem?.address}</p>
         <p className="tour-tag">
-          #{tags?.[0]} #{tags?.[1]} #{tags?.[2]}
+          #{tags?.[0]} #{tags?.[1]}  #{tags?.[2]}
         </p>
       </div>
     </div>

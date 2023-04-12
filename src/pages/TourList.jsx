@@ -20,6 +20,10 @@ function TourList() {
     });
   };
 
+  const noPage = () => {
+    alert("더이상 페이지가 존재 하지 않습니다");
+  };
+
   useEffect(() => {
     fetchData();
   }, []);
@@ -27,11 +31,13 @@ function TourList() {
   return (
     <div className="tour-list-page">
       <div className="search">
-        <h1>JEJU 관광지 LIST</h1>
+        <h1>JEJU 관광지</h1>
         {/* <SearchBar /> */}
       </div>
       <div className="content">
-        {pageNum === "1" ? null : (
+        {pageNum === "1" ? (
+          <AiOutlineCaretLeft size={44} onClick={noPage} />
+        ) : (
           <Link to={`/jeju-tour/list/${pageNum - 1}`}>
             <AiOutlineCaretLeft size={44} />
           </Link>
@@ -47,9 +53,13 @@ function TourList() {
             );
           })}
         </div>
-        <Link to={`/jeju-tour/list/${pageNum - 1 + 2}`}>
-          <AiOutlineCaretRight size={44} />
-        </Link>
+        {pageNum === "17" ? (
+          <AiOutlineCaretRight size={44} onClick={noPage} />
+        ) : (
+          <Link to={`/jeju-tour/list/${pageNum - 1 + 2}`}>
+            <AiOutlineCaretRight size={44} />
+          </Link>
+        )}
       </div>
     </div>
   );
