@@ -7,9 +7,7 @@ function TourListItem({ tourItem }) {
   useEffect(() => {
     setTags(tourItem.alltag.split(","));
   }, []);
-
-  console.log(tourItem)
-
+  
   return (
     <div className="tour-items" onClick={() => window.location.href=`/jeju-tour/detail/${tourItem?.contentsid}`}>
       <img
