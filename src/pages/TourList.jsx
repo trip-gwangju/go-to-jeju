@@ -1,3 +1,4 @@
+
 import React, { useEffect, useState } from "react";
 import SearchBar from "../components/SearchBar";
 import "../styles/tourlist.css";
@@ -62,7 +63,7 @@ function TourList() {
         )}
       </div>
     </div>
-  );
+  );;
 }
 
 export default TourList;
