@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/go-to-jeju/static/css/main.bd45c515.css",
-    "main.js": "/go-to-jeju/static/js/main.13424aa1.js",
+    "main.js": "/go-to-jeju/static/js/main.5492e0df.js",
     "static/js/787.c4944002.chunk.js": "/go-to-jeju/static/js/787.c4944002.chunk.js",
     "static/media/Jeju_baek.svg": "/go-to-jeju/static/media/Jeju_baek.65d0c0b9637f1a99a977.svg",
     "static/media/jeju.jpg": "/go-to-jeju/static/media/jeju.b9e0626082c2dfa0bdb2.jpg",
@@ -12,11 +12,11 @@
     "static/media/spring.PNG": "/go-to-jeju/static/media/spring.d01f4a8fda43c1a1fc75.PNG",
     "index.html": "/go-to-jeju/index.html",
     "main.bd45c515.css.map": "/go-to-jeju/static/css/main.bd45c515.css.map",
-    "main.13424aa1.js.map": "/go-to-jeju/static/js/main.13424aa1.js.map",
+    "main.5492e0df.js.map": "/go-to-jeju/static/js/main.5492e0df.js.map",
     "787.c4944002.chunk.js.map": "/go-to-jeju/static/js/787.c4944002.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.bd45c515.css",
-    "static/js/main.13424aa1.js"
+    "static/js/main.5492e0df.js"
   ]
 }
