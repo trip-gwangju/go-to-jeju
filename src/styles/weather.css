@@ -1,0 +1,125 @@
+.jejuweather{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    top: 0;
+    z-index: -1;
+}
+
+.img{
+    position: absolute;
+width: 324px;
+height: 315px;
+left: 115px;
+top: 236px;
+}
+
+.humidity{
+    position: absolute;
+    font-size: 30px;
+    font-weight: 600;
+    top: 427px;
+    left: 450px;
+    color: white;
+}
+
+.weatherMain{
+    position: absolute;
+width: 375px;
+height: 34px;
+left: 445px;
+top: 264px;
+font-family: 'BatangChe';
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 34px;
+
+color: #FFFFFF;
+}
+
+.temp{
+    position: absolute;
+width: 525px;
+height: 103px;
+left: 445px;
+top: 267px;
+
+font-family: 'BatangChe';
+font-style: normal;
+font-weight: 400;
+font-size: 50px;
+line-height: 103px;
+
+color: #FFFFFF;
+
+}
+
+.windImg{
+    position: absolute;
+    width: 174px;
+    height: 195px;
+    left: 205px;
+    top: 436px;
+}
+
+.feelsLike{
+    position: absolute;
+    font-size: 30px;
+    color: white;
+    top: 380px;
+    left: 455px;
+}
+
+.tempMin{
+    position: absolute;
+    font-size: 20px;
+    color: royalblue;
+    top: 347px;
+    left: 625px;
+    font-weight: 500;
+}
+
+.slash{
+    position: absolute;
+    font-size: 20px;
+    color: blanchedalmond;
+    top: 347px;
+    left: 715px;
+}
+
+.tempMax{
+    position: absolute;
+    font-size: 20px;
+    color: #F88A8A;
+    top: 347px;
+    left: 735px;
+    font-weight: 500;
+}
+
+
+.windSpeed{
+    position: absolute;
+    font-size: 40px;
+    color: white;
+    top: 480px;
+    left: 435px;
+}
+
+.clothesText{
+    position: absolute;
+    font-size: 40px;
+    font-family: 'BatangChe';
+    font-weight: 600;
+    color: white;
+    left: 720px;
+    top: 200px;
+}
+
+.clothes{
+    position: absolute;
+    left: 900px;
+    top: 300px;
+    border-radius: 20%;
+}
