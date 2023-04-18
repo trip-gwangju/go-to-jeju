@@ -7,7 +7,7 @@ function Header() {
     <div className="header">
       <ul className="header_list">
         <li>
-          <Link to="/">소개글</Link>
+          <Link to="/go-to-jeju">소개글</Link>
         </li>
         <li>
           <Link to="/weather">날씨</Link>
