@@ -1,0 +1,31 @@
+.tour-items {
+  margin-right: 10px;
+  margin-bottom: 20px;
+  padding-top: 15px;
+  padding-left: 15px;
+  width: 45%;
+  border-radius: 10px;
+  background-color: #fafafa;
+  cursor: pointer;
+}
+
+.thumb-img {
+  width: 98%;
+  height: 300px;
+  border-radius: 10px;
+}
+
+.item-info {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  margin-left: 1em;
+}
+
+.title {
+  font-weight: 600;
+}
+
+.address {
+  font-size: 16px;
+}

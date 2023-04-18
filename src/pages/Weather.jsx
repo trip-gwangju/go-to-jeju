@@ -60,6 +60,7 @@ function Weather() {
             <img src={clothes ? clothes:null} className='clothes'></img>
         </div>
     );
+
 }
 
 export default Weather;

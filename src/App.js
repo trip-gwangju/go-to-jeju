@@ -5,17 +5,19 @@ import Home from "./pages/Home";
 import Weather from './pages/Weather';
 import TourList from './pages/TourList';
 import TourDetail from './pages/TourDetail';
+import Footer from "./components/Footer";
 
 function App() {
   return (
     <div>
       <Header />
-      <Routes >
+      <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/weather" element={<Weather />} />
-        <Route path="/jeju-tour/list" element={<TourList />} />
-        <Route path="/jeju-tour/detail/:tourId" element={<TourDetail />} />
+        <Route path="/jeju-tour/list/:pageNum" element={<TourList />} />
+        <Route path="/jeju-tour/detail/:contentId" element={<TourDetail />} />
       </Routes>
+      <Footer />
     </div>
   );
 }
